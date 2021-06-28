@@ -21,8 +21,8 @@ We are developing a site and a program, which will have up-to-date information o
 - <img src="https://cdn.discordapp.com/attachments/811480580993974282/820292593266327562/Excel-Logo.png" width="30">  Excel
 -  <img src="https://cdn.discordapp.com/attachments/811480580993974282/820292362851844126/word.png" width="30">  Word
 - <img src="https://cdn.discordapp.com/attachments/811480580993974282/820296758197223424/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f383135323533353831.png" width="30">  PowerPoint
-- <img crs="https://seniordba.files.wordpress.com/2015/05/sqlserver.jpg  width="30"> SSMS
-- <img crs=![image](https://user-images.githubusercontent.com/56866367/123685255-29349b80-d857-11eb-9793-5c4dc96ce567.png)  width="30"> SQL
+- <img crs="https://user-images.githubusercontent.com/56866367/123685255-29349b80-d857-11eb-9793-5c4dc96ce567.png"  width="30"> SSMS
+- <img crs="https://user-images.githubusercontent.com/56866367/123685551-803a7080-d857-11eb-9fab-9b4053559adf.png"  width="30"> SQL
 - <img src="https://cdn.discordapp.com/attachments/811480580993974282/820291748760780810/4RNpb9aMpAAAAABJRU5ErkJggg.png" width="30">  C++
 
  ---
