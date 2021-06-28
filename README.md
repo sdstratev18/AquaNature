@@ -1,3 +1,4 @@
+<img src="https://cdn.discordapp.com/attachments/450722177860501541/859183730517737482/Aqua_Nature.png" width="200">
 # AquaNature
 
 
