@@ -118,11 +118,11 @@ void addSpecies(ANIMAL fish[]) {
 	cout << "How many areas would you like to add: ";
 	cin >> riba;
 	for (int i = 0; i < riba; i++) {
-		cout << "Enter Type: ";
+		cout << "Enter type: ";
 		cin >> fish[i].type;
-		cout << "Enter location: ";
+		cout << "Enter habitat: ";
 		cin >> fish[i].habitat;
-		cout << "Enter opeing date: ";
+		cout << "Enter traits: ";
 		cin >> fish[i].traits;
 		
 	}
@@ -152,7 +152,7 @@ void menu2() {
 		cout << "---------------------------------" << endl;
 		cout << endl;
 		cout << "||           MAIN MENU         ||" << endl;
-		cout << "||1)      Protected areas      ||" << endl;
+		cout << "||1)      Types of Animals     ||" << endl;
 		cout << "||2)        Add species        ||" << endl;
 		cout << "||3)       Exit the menu       ||" << endl;
 		cout << endl;
