@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  height: 50px;
+}
+
+* {
+  text-align: justify;
+  font-family: 'Noto Sans JP', sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.logo {
+  height: 50px;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #2a77f5;
+  height: 50px;
+}
+
+li b {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.line-right {
+  border-right: 2px solid black;
+}
+
+#ContactUs {
+  background-color: black;
+  height: 50px;
+}
+
+#activePlants {
+  background-color: black;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 2%;
+}
+
+button {
+  background-color: black;
+}
+
+.right {
+  float: right;
+  padding: 30px;
+}
+
+.left {
+  float: left;
+  padding: 30px;
+}
+
+h3, li, p {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+p {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 20px;
+}
+
+.vertical {
+  border-left: 6px solid black;
+  height: 50px;
+}
+
+#info {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+body {
+    background-color: #649dfa;
+    text-align: center;
+}
+
+#form {
+    background-color: #98d99c;
+    border-style: solid;
+    border-radius: 30px;
+    width: 55%;
+    height: 90%;
+}
+
+.center {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+#LoginAndRegister {
+    text-decoration: none;
+    color: black;
+}
+
+
+.containerLeft{
+	width: 30rem;
+	height: 20rem;
+	box-shadow: 0 0 1rem 0 rgba	(0, 0, 0, .2);
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, .15);
+	float: left;
+}
+.containerCenter{
+	width: 30rem;
+	height: 20rem;
+	box-shadow: 0 0 1rem 0 rgba	(0, 0, 0, .2);
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, .15);
+	float: left;
+}
+.containerRight{
+	width: 30rem;
+	height: 20rem;
+	box-shadow: 0 0 1rem 0 rgba	(0, 0, 0, .2);
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, .15);
+	float: left;
+}
+
+.card {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: min-content;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    position: relative;
+    padding: 20px;
+    background-color:darksalmon;
+    font-family: oswald;
+    
+}
+
+.card-body {
+    color: black;
+    
+}
