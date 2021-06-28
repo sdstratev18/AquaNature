@@ -142,6 +142,7 @@
     <ClCompile Include="AquaNature.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Endagered Species.h" />
     <ClInclude Include="ProtectedAreas.h" />
     <ClInclude Include="Types of Animals.h" />
   </ItemGroup>

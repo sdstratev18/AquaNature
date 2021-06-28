@@ -26,5 +26,8 @@
     <ClInclude Include="Types of Animals.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Endagered Species.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
