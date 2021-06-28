@@ -1,4 +1,4 @@
-#pragma once
+
 #pragma once
 #include <iostream>
 #include <string>
@@ -12,7 +12,7 @@ struct ANIMAL {
 
 
 
-
+//This function outputs information about krills
 void Krill() {
 	cout << "Type: Krill Euphausiacea " << endl;
 	cout << "Habitat: The Southern Ocean" << endl;
@@ -24,6 +24,8 @@ void Krill() {
 }
 
 
+
+//This function outputs information about Blue Whales
 void BlueWhale() {
 	cout << "Type: Blue whale " << endl;
 	cout << "Habitat: Every ocean" << endl;
@@ -33,6 +35,9 @@ void BlueWhale() {
 	system("cls");
 }
 
+
+
+//This function outputs information about Corals
 void Corals() {
 	cout << "Type: Corals " << endl;
 	cout << "Habitat: Reefs" << endl;
@@ -42,6 +47,9 @@ void Corals() {
 	system("cls");
 }
 
+
+
+//This function outputs information about Piranha
 void Piranha() {
 	cout << "Type: Piranha" << endl;
 	cout << "Habitat: South American rivers" << endl;
@@ -52,6 +60,8 @@ void Piranha() {
 }
 
 
+
+//This function outputs information about Dolphin
 void Dolphin() {
 	cout << "Type: Dolphin" << endl;
 	cout << "Habitat: Most oceans" << endl;
@@ -63,8 +73,7 @@ void Dolphin() {
 
 
 
-
-
+//This function lets you choose for which type of fish to read about
 void Info2() {
 	int choice;
 	cout << "Choose Species" << endl;
@@ -101,6 +110,9 @@ void Info2() {
 	}
 }
 
+
+
+//In this function you can add info about new species
 void addSpecies(ANIMAL fish[]) {
 	int riba;
 	cout << "How many areas would you like to add: ";
@@ -128,6 +140,9 @@ void addSpecies(ANIMAL fish[]) {
 	}
 }
 
+
+
+//This the main menu
 void menu2() {
 	int choice;
 	ANIMAL fish[3];

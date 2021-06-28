@@ -12,7 +12,7 @@ struct ProtectedWaterAreas {
 
 
 
-
+//This function outputs information about the protected area "Pelicans"
 void PelicansProtectedArea() {
 	cout << "Name: Pelicans Protected Area" << endl;
 	cout << "Location: Silistra" << endl;
@@ -24,6 +24,8 @@ void PelicansProtectedArea() {
 }
 
 
+
+//This function outputs information about the protected area "Kolokita"
 void Kolokita() {
 	cout << "Name: Kolokita Protected Area" << endl;
 	cout << "Location: Sozopol" << endl;
@@ -34,6 +36,9 @@ void Kolokita() {
 	system("cls");
 }
 
+
+
+//This function outputs information about the protected area "Poda"
 void Poda() {
 	cout << "Name: Poda Protected Area" << endl;
 	cout << "Location: Burgas" << endl;
@@ -44,6 +49,9 @@ void Poda() {
 	system("cls");
 }
 
+
+
+//This function outputs information about the protected area "Durankulak Lake"
 void DurankulakLake() {
 	cout << "Name: Durankulak Lake Protected Area" << endl;
 	cout << "Location: Dobrich" << endl;
@@ -55,6 +63,8 @@ void DurankulakLake() {
 }
 
 
+
+//This function outputs information about the protected area "Shabla Lake"
 void ShablaLake() {
 	cout << "Name: Shabla Lake Protected Area" << endl;
 	cout << "Location: Shabla" << endl;
@@ -67,8 +77,7 @@ void ShablaLake() {
 
 
 
-
-
+//This function lets you choose for which protected area to read about
 void Info() {
 	int choice;
 	cout << "Choose Protected Area" << endl;
@@ -105,6 +114,9 @@ void Info() {
 	}
 }
 
+
+
+//In this function you can add info about new protected areas
 void creatProtectedArea(ProtectedWaterAreas area[]) {
 	int rezervat;
 	cout << "How many areas would you like to add: ";
@@ -134,6 +146,9 @@ void creatProtectedArea(ProtectedWaterAreas area[]) {
 	}
 }
 
+
+
+//This is the main menu
 void menu1() {
 	int choice;
 	ProtectedWaterAreas areas[4];

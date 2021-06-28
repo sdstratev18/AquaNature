@@ -4,7 +4,7 @@
 #include <cstdlib>
 using namespace std;
 
-
+//This the main menu of the program
 int main() {
 	int choice;
 	
