@@ -4,7 +4,7 @@
 ## WE ARE TEAM AquaNature!
 
 
-We are developing a site and a program, which will have up-to-date information on water resources and animals, protected aquatic animals, protected water areas as well as technological solutions for their protection, monitoring and development. You can look through our [presentation](https://codingburgas-my.sharepoint.com/:p:/r/personal/hsabumelih18_codingburgas_bg/_layouts/15/Doc.aspx?sourcedoc=%7B16939F04-8F0D-40B6-B85B-F386994A1FA4%7D&file=ORANGE.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1&ct=1615644077730&wdOrigin=OFFICECOM-WEB.START.OTHER&cid=dd035867-e53f-40fb-b6b9-ead5ecf39ef5) for a better introduction.
+We are developing a site and a program, which will have up-to-date information on water resources and animals, protected aquatic animals, protected water areas as well as technological solutions for their protection, monitoring and development. You can look through our [presentation] for a better introduction.
 
 ---
 
