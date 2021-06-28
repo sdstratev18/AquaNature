@@ -134,7 +134,7 @@ void creatProtectedArea(ProtectedWaterAreas area[]) {
 	}
 }
 
-void menu() {
+void menu1() {
 	int choice;
 	ProtectedWaterAreas areas[4];
 	do {
@@ -145,7 +145,7 @@ void menu() {
 		cout << "||           MAIN MENU         ||" << endl;
 		cout << "||1)      Protected areas      ||" << endl;
 		cout << "||2)    Add protected areas    ||" << endl;
-		cout << "||3)      Exit the program     ||" << endl;
+		cout << "||3)       Exit the menu       ||" << endl;
 		cout << endl;
 		cout << "---------------------------------" << endl;
 		cout << "---------------------------------" << endl;
@@ -161,7 +161,7 @@ void menu() {
 			
 			break;
 		case 3:
-			cout << "You exited the program successfully!";
+			cout << "You exited the menu successfully!" << endl;
 			break;
 		default:
 			cout << "Wrong choice. Try again! ";

@@ -65,7 +65,7 @@ void Dolphin() {
 
 
 
-void Info() {
+void Info2() {
 	int choice;
 	cout << "Choose Species" << endl;
 	cout << "1) Krill" << endl;
@@ -101,7 +101,7 @@ void Info() {
 	}
 }
 
-void creatProtectedArea(ANIMAL fish[]) {
+void addSpecies(ANIMAL fish[]) {
 	int riba;
 	cout << "How many areas would you like to add: ";
 	cin >> riba;
@@ -128,7 +128,7 @@ void creatProtectedArea(ANIMAL fish[]) {
 	}
 }
 
-void menu() {
+void menu2() {
 	int choice;
 	ANIMAL fish[3];
 	do {
@@ -138,8 +138,8 @@ void menu() {
 		cout << endl;
 		cout << "||           MAIN MENU         ||" << endl;
 		cout << "||1)      Protected areas      ||" << endl;
-		cout << "||2)    Add protected areas    ||" << endl;
-		cout << "||3)      Exit the program     ||" << endl;
+		cout << "||2)        Add species        ||" << endl;
+		cout << "||3)       Exit the menu       ||" << endl;
 		cout << endl;
 		cout << "---------------------------------" << endl;
 		cout << "---------------------------------" << endl;
@@ -148,14 +148,14 @@ void menu() {
 		cin >> choice;
 		switch (choice) {
 		case 1:
-			Info();
+			Info2();
 			break;
 		case 2:
-			creatProtectedArea(fish);
+			addSpecies(fish);
 
 			break;
 		case 3:
-			cout << "You exited the program successfully!";
+			cout << "You exited the menu successfully!" << endl;
 			break;
 		default:
 			cout << "Wrong choice. Try again! ";
