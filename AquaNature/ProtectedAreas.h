@@ -120,13 +120,15 @@ void creatProtectedArea(ProtectedWaterAreas area[]) {
 		cin >> area[i].species;
 	}
 
+	cout << endl;
+	cout << endl;
 
 	for (int i = 0; i < rezervat; i++) {
-		cout << "Name: " << area->name << endl;
-		cout << "Location " << area->location << endl;
-		cout << "Opening Date " << area->date << endl;
-		cout << "Inhabiting species " << area->species << endl;
-		cout << "You have successfully added: " << area[i].name << endl;
+		cout << "|| Name: " << area->name <<" ||"<< endl;
+		cout << "|| Location " << area->location << " ||"<< endl;
+		cout << "|| Opening Date " << area->date << " ||"<<endl;
+		cout << "|| Inhabiting species " << area->species << " ||"<<endl;
+		cout << "|| You have successfully added: " << area[i].name << " ||" << endl;;
 		system("pause");
 		system("cls");
 	}
@@ -134,7 +136,7 @@ void creatProtectedArea(ProtectedWaterAreas area[]) {
 
 void menu() {
 	int choice;
-	ProtectedWaterAreas areas[5];
+	ProtectedWaterAreas areas[4];
 	do {
 		cout << "---------------------------------" << endl;
 		cout << "===========AQUA NATURE===========" << endl;
